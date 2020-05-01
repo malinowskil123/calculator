@@ -10,12 +10,11 @@ body {
 h1 {
   color: white;
   text-align: center;
-  padding-top: 10vh;
   font-weight: bolder;
   font-size: 2.2em;
 }
 .container {
-  width: 20vw;
+  width: 90vw;
   height: auto;
 }
 table {
@@ -38,4 +37,10 @@ button {
   text-align: right;
   padding-right: 16px;
   background-color: gray;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 35vw;
+  }
 }
