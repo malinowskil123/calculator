@@ -2,7 +2,7 @@
   font-family: 'Inconsolata', monospace;
 }
 body {
-  background-color: rgb(11, 11, 40);
+  background-color: #1b1b32;
   display: flex;
   justify-content: center;
   align-items: center;
