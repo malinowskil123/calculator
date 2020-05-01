@@ -23,7 +23,6 @@ function pushBtn(value) {
 }
 const isWholeNumber = (num) => num === Math.round(num)
 const calculate = (expression) => {
-  console.log(expression)
   return isWholeNumber(eval(expression)) === false
     ? $('#inputLabel').html(eval(expression).toFixed(2))
     : $('#inputLabel').html(eval(expression))
