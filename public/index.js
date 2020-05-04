@@ -4,13 +4,14 @@ function pushBtn(value) {
   if (pushed === '=') {
     if (isNaN(arithmetic[arithmetic.length - 1]) === false) {
       calculate(arithmetic)
-      if (pushed != '=') {
-        inputLabel.innerHTML = '0'
-      }
+      if (pushed != '=') inputLabel.innerHTML = '0'
     } else {
       alert('Syntax Err')
       $('#inputLabel').html('0')
     }
+  } else if (pushed === 'DEL') {
+    let backspaced = arithmetic.substr(0, arithmetic.length - 1)
+    inputLabel.innerHTML = backspaced === '' ? 0 : backspaced
   } else if (pushed === 'AC') {
     inputLabel.innerHTML = '0'
   } else {
