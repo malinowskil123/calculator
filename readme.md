@@ -1,6 +1,6 @@
 # Introduction
 
-**Calculator Web App** takes in a arithmetic expression and returns the result, also validates user input to see if the expression entered is a valid mathematical expression (node required!!!!).
+**Calculator Web App**: A web-based alternative for a traditional calculator. Users are able to enter and calculate simple mathematical expressions. Entered values are validated and if an error is detected a syntax error pop-up is displayed (node required!!!!).
 
 ## To Run This App </>
 
