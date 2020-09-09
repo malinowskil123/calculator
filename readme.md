@@ -4,8 +4,6 @@
 
 ## To Run This App </>
 
-## To Run This App </>
-
 1. Clone this repo
 
 2. `cd` into the project folder
