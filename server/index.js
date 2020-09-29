@@ -7,7 +7,7 @@ const express = require('express'),
 app.use(express.static('public'))
 // serves up jquery to index.html using alias folder path /scripts
 app.use(
-  '/scripts',
+  '/lib',
   // get abs path goes up one level and appends jquery location
   express.static(path.join(__dirname, '..', 'node_modules/jquery/dist'))
 )
